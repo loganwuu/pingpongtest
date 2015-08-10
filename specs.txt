@@ -1,0 +1,11 @@
+#1.
+Return all numbers starting from 1.
+
+#2.
+If number equals the multiples of 3, return "ping".
+
+#3.
+If number equals the multiples of 5, return "pong".
+
+#4.
+If number equals both the multiples of 3 and 5, return "ping-pong".
