@@ -28,5 +28,18 @@
             //Assert
             $this->assertEquals(array(1, 2, "ping"), $result);
         }
+
+        function test_makePingPong_pong()
+        {
+            //Arrange
+            $test_PingPongGenerator = new PingPongGenerator;
+            $input = 5;
+
+            //Act
+            $result = $test_PingPongGenerator->generatePingPongArray($input);
+
+            //Assert
+            $this->assertEquals(array(1, 2, "ping", 4, "pong"), $result);
+        }
     }
 ?>

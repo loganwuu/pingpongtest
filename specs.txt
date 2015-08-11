@@ -1,11 +1,14 @@
 #1.
-Return all numbers starting from 1.
+Return all numbers starting from 2.
 
 #2.
-If number equals the multiples of 3, return "ping".
+If number equals to the multiples of 3, return "ping".
 
 #3.
-If number equals the multiples of 5, return "pong".
+If number equals to the multiples of 5, return "pong".
 
 #4.
-If number equals both the multiples of 3 and 5, return "ping-pong".
+If number equals to both the multiples of 3 and 5, return "ping-pong".
+
+$5.
+Make the list extend vertically instead of horizontally.
