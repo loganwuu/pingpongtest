@@ -14,8 +14,8 @@
 
     $app->get("/view_ping_pong", function() use($app) {
         $my_PingPongGenerator = new PingPongGenerator;
-        $view_pingPong = $my_PingPongGenerator->makeTitleCase($_GET['number']);
-        return $app['twig']->render('ping_pong.html.twig', array('result' => $view_pingPong));
+        $view_ping_pong = $my_PingPongGenerator->generatePingPongArray($_GET['number']);
+        return $app['twig']->render('ping_pong.html.twig', array('result' => $view_ping_pong));
     });
 
     return $app;
