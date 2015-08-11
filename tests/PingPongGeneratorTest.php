@@ -7,13 +7,13 @@
         {
             //Arrange
             $test_PingPongGenerator = new PingPongGenerator;
-            $input = 3;
+            $input = 2;
 
             //Act
             $result = $test_PingPongGenerator->generatePingPongArray($input);
 
             //Assert
-            $this->assertEquals("1/n2/n3", $result);
+            $this->assertEquals(array(1, 2), $result);
         }
     }
 ?>
